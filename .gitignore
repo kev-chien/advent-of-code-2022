@@ -1,0 +1,29 @@
+# OSX finder 
+.DS_Store
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg-info/
+build/
+dist/
+sdist/
+
+# Unit test / coverage reports
+.cache
+.coverage
+.pytest_cache/
+.tox/
+.mypy_cache
+
+# virtualenv
+venv*
+.venv/
+env/
