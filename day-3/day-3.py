@@ -50,7 +50,6 @@ def get_priority_of_item_in_both_compartments(rucksack: str):
     # split into compartments
     half_index = int(len(rucksack)/2)
     comp_1, comp_2 = rucksack[:half_index], rucksack[half_index:]
-    print(comp_1, comp_2)
 
     # find duplicate item
     duplicate = set(comp_1) & set(comp_2)
